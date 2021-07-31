@@ -1,0 +1,45 @@
+//Ajouter
+
+
+POST  http://localhost:3000/api/perso HTTP/1.1
+content-type: application/json
+
+{
+    "login" : "yassine",
+    "mp": "yassine"
+}
+
+
+
+
+###
+//find all
+
+GET  http://localhost:3000/api/perso
+
+
+###
+//find by id
+
+GET  http://localhost:3000/api/perso/dzTrtICtF4evYPIq
+
+
+###
+//update
+
+PATCH  http://localhost:3000/api/perso/2Rzd2mUfG5u7BOLx HTTP/1.1
+content-type: application/json
+
+{
+    "login" : "yassine test 123"
+}
+
+###
+//delete
+
+
+PUT  http://localhost:3000/api/perso/Nv8CF4GpRbgTDrdb 
+
+//delete RAPPIDE AKTHER 
+###
+DELETE   http://localhost:3000/api/perso/Nv8CF4GpRbgTDrdb 
